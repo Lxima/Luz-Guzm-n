@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario-HTML</title>
+    <style>
+        .titulo {
+            color: white;
+            background-color: teal;
+        }
+
+        .recreo {
+            font-weight: bold;
+            background-color: white;
+            color: teal;
+            text-align: center;
+        }
+
+        .asignaturas {
+            background-color: rgb(108, 233, 80);
+            color: white;
+            text-align: center;
+        }
+
+        .horarios {
+            color: white;
+            background-color: teal;
+            text-align: center;
+        }
+
+        .tfooter {
+            background-color: rgb(114, 173, 212);
+            color: cornsilk;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <caption>HORARIO DE CLASES DE 5"C"</caption>
+        <thead>
+            <tr class="titulo">
+                <th>Horarios</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="asignaturas">
+                <th class="horarios">8:15 - 8:55</th>
+                <td rowspan="2">Geografía</td>
+                <td rowspan="2">Lengua y Literatura</td>
+                <td rowspan="2">Base de Datos</td>
+                <td rowspan="2">Inglés</td>
+                <td rowspan="2">Lenguaje de programación</td>
+            </tr>
+            <tr>
+                <th class="horarios">8:55 - 9:35</th>
+            </tr>
+            <tr>
+                <th class="horarios">9:35 - 9:50</th>
+                <td colspan="5" class="recreo">RECREO</td>
+
+            </tr>
+            <tr class="asignaturas">
+                <th class="horarios">9:50 - 10:30</th>
+                <td rowspan="2">Física</td>
+                <td rowspan="2">Física</td>
+                <td>Base de datos</td>
+                <td>Inglés</td>
+                <td rowspan="2">Lenguaje de programación</td>
+            </tr>
+            <tr class="asignaturas">
+                <th class="horarios">10:30 - 11:10</th>
+                <td>Historia</td>
+                <td>Psicología</td>
+            </tr>
+            <tr>
+                <th class="horarios">11:10 - 11:25</th>
+                <td colspan="5" class="recreo">RECREO</td>
+
+            </tr>
+            <tr class="asignaturas">
+                <th class="horarios">11:25 - 12:05</th>
+                <td rowspan="2">Matamática</td>
+                <td rowspan="2">Matemática</td>
+                <td rowspan="2">Lengua y Literatura </td>
+                <td rowspan="2">SSDI</td>
+                <td rowspan="2">Lenguaje de programación</td>
+            </tr>
+            <tr class="asignaturas">
+                <th class="horarios">12:05 - 12:45</th>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="tfooter">Cantidad de asignaturas</td>
+                <td colspan="5" class="recreo"> 9 </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+<footer></footer>
+
+</html>

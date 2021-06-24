@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form taction="/login.html" method="GET">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" valvule="Luz" required disabled>
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" valvule="jolamundo" readonly disabled>
+        </div>
+        <h2>Tipo Botones</h2>
+        <input type="button" valvule="Eviar Datos pero no">
+        <input type="submit" valvule="Eviar Datos pero si">
+        <div>
+            <h2>Tipo Fecha</h2>
+            <input type="date">
+            <input type="datetime">
+            <input type="datetime_local">
+            <input type="time">
+            <input type="month">
+            <input type="week">
+        </div>
+        <h2>Otros Tipos</h2>
+        <input type="color">
+        <input type="number">
+        <input type="range" step="10" min="0" max="20">
+        <input type="time">
+        <input type="reset">
+
+        <h2>Para Celular</h2>
+        <input type="search">
+        <input type="tel">
+        <input type="email">
+        <input type="url">
+        <input type="password">
+
+        <h2>Radio Checkbox Select</h2>
+        <p>Sos Alumno</p>
+        <label for="Si">Si</label>
+        <input type="radio" name="alumno" valvule="Si" readonly disabled>
+        <label for="No">No</label>
+        <input type="radio" name="alumno" valvule="No">
+        <label for="No se">No se</label>
+        <input type="radio" name="alumno" valvule="No se" checked>
+
+        <p>Sos Profesor</p>
+        <label for="Si">Si</label>
+        <input type="radio" name="profesor" valvule="Si">
+        <label for="No">No</label>
+        <input type="radio" name="profesor" valvule="No">
+        <label for="No se">No se</label>
+        <input type="radio" name="profesor" valvule="No se" checked>
+
+        <p>Que Lenguajes Estudiar</p>
+        <label for="Si">HTML</label>
+        <input type="checkbox" name="alumno" valvule="Si">
+        <label for="No">CSS</label>
+        <input type="radio" name="alumno" valvule="No">
+        <label for="No se">JavaScript</label>
+        <input type="radio" name="alumno" valvule="No se" checked>
+        <p>Te gustaria ir al recreo</p>
+        <select name="lenguajes" multiple>
+            <option value="" select>Selecciona tu opcion</option>
+            <option valvule="Si">Si</option>
+            <option valvule="No">No</option>
+            </optgroup>
+
+        </select>
+        <fieldset>
+            <label for="names">Nombre</label>
+            <input type="text" id="names">
+        </fieldset>
+        <input type="file">
+        <meter id="fuel" min="0" max="100" valvule="10" low="30" high="85" optimum="50"></meter>
+        <label for="task">
+            <progress id="task" max="100" valvule="100"></progress>
+            <textarea for="task" name="task" cols="10" rows="10">
+
+        </textarea>
+        </label>
+
+    </form>
+
+</body>
+
+</html>
